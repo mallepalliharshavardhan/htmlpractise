@@ -1,5 +1,6 @@
 h1{
     color: chartreuse;
+    font-size: 50px;
 }
 
 p{
@@ -8,4 +9,10 @@ p{
 }
 li{
     color:crimson;
+}
+.chocolate{
+    color: chocolate;
+}
+.backgroundcolor{
+    background-color: black;
 }
