@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        input[type="text"]
+        {
+            background-color: burlywood;font-style: oblique;
+        }
+        input:focus{ 
+            background-color: rgb(145, 145, 36);
+        }
+        input[type="email"]
+        {
+            background-color: cadetblue;font-size: large;
+
+        }
+
+        input[type="password"]
+        {
+            background-color: red;
+            color: azure;
+        }
+        .har{
+            color: brown;
+        }
+
+        button:hover{
+            background-color: chartreuse;
+            transform: scale(1.5);
+        }
+        input:active,button:active
+        {
+            color: darkgreen;
+            transform: scale(1.2);
+            background-color: coral;
+        }
+        <!-- hover -->
+        input:hover[type="file"]
+        {
+            background-color:chocolate
+        }
+        
+       #textarea{
+            background-color: cornsilk;
+        }
+        span:hover{
+            background-color:bisque;
+        }
+        span:focus{
+            background-color: chartreuse;
+        }
+        button:focus{
+            border: 3px blue;
+
+            
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            
+            First Name: <input type="text" class="hk" placeholder="First name">
+            Middle Name: <input type="text" id="2" placeholder="Middle name">
+            Last Name: <input type="text" id="3" placeholder="Surname">
+            Emailid: <input type="email" placeholder="harsha@gmail.in">
+            Password: <input type="Password" id="4" placeholder="password">
+            <br>
+            <br>
+            Mobile No: <input type="tel" placeholder="Enter mobile no">
+            <br>
+            <br>
+            <label> Country:
+                <select>
+                    <option value="">Select</option>
+                    <option value="India"> India</option>
+                    <option value="england"> England</option>
+                    <option value="Singapore">Singapore</option >
+                </select>
+            </label>
+
+
+
+            <label >
+                <br>
+                <br>
+                <input type="radio" name="Candidate"> Fresher
+            </label>
+            <label>
+                <input type="radio" name="Candidate"> Exp Professional 1+
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="range" min="0" max="10">
+            </label>
+            <br>
+            <br>
+            <label>
+                DOB: <input type="date" name="Date of Birth">
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox" value="T&C"> T&C
+            </label>
+            <br>
+            <div>
+                <span class="har" tabindex="0">
+                    Why do you think your the best fit for this role ?
+                </span>
+                <br>
+                <textarea id="textarea" name="Question" placeholder="Write in detail and logical response to get seleceted"
+                    height="100" rows="5" maxlength="250"></textarea>
+                <br>
+                <br>
+                <label>
+                    <input type="file">
+                </label>
+                <br>
+                <br>
+                <button type="submit"> Apply</button>
+                <br>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
