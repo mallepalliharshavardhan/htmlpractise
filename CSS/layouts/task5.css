@@ -6,60 +6,84 @@
 .layout {
     border: 3px solid black;
     text-align: justify;
-    background-color:rgb(224, 215, 204)
+    background-color: rgb(224, 215, 204)
 }
-.display{
-            display: flex;
-        }
 
+.display {
+    display: flex;
+}
+.margin{
+    margin: 10px;
+}
+.logo{
+     border: 2px solid black;
+    background-color: rgb(210, 177, 94);
+    padding: 10px;
+    text-transform: inherit;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    padding: 5px;
+}
+.banner{
+     border: 2px solid black;
+    background-color: rgb(210, 177, 94);
+    padding: 5px;
+    text-transform: inherit;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    flex:6;
+    display: flex;
+    padding: 5px;
+}
 
 .header {
     border: 2px solid black;
-    background-color:rgb(239, 111, 111);
-    margin: 10px;
-    text-transform: uppercase;  
+    background-color: rgb(162, 35, 35);
+    text-transform: uppercase;
     align-items: center;
     justify-content: center;
-    ;
+   
 }
 
-.Nav{
+.Nav {
     border: 2px solid black;
-    margin: 10px;
     background-color: burlywood;
 }
 
-.Nav-ul{
+.Nav-ul {
     align-items: center;
     text-align: center;
     list-style: none;
     height: 300px;
 }
-.Nav-ul:hover, 
-.Nav-ul :active{
+
+.Nav-ul:hover,
+.Nav-ul :active {
     color: maroon;
     letter-spacing: 1.5px;
 }
 
 .sidebar {
     border: 2px solid black;
-  background-color: chocolate;
+    background-color: rgb(231, 186, 153);
     justify-content: center;
-    margin: 10px;
     padding: 10px;
     align-items: center;
     font-size: larger;
-    flex:1;
+    flex: 1;
     display: flex;
     padding: 15px;
-    height: 300px;
+    
 
 }
 
 .content {
     border: 2px solid black;
-    background-color: darkgoldenrod;
-    margin: 10px;
+    background-color: rgb(210, 177, 94);
     padding: 10px;
     text-transform: inherit;
     font-size: larger;
@@ -69,15 +93,13 @@
     display: flex;
     padding: 15px;
     
-    height: 300px;
 
 }
 
 
 .footer {
     border: 2px solid black;
-    margin: 10px;
-    background-color:darkolivegreen;
+    background-color: darkolivegreen;
     align-items: center;
     font-size: larger;
     height: 50px;
