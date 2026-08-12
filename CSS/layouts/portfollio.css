@@ -1,0 +1,39 @@
+.table{
+    border:1px solid black;
+    padding: 10px;
+    background-color:floralwhite;
+
+
+}
+
+*{
+
+align-items: center;
+font-variant: small-caps;
+
+}
+
+.th{
+    color:blue;
+
+}
+
+.movlang{
+    color:crimson;
+}
+
+.todo-img{
+    justify-content: flex-end;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.checkbox{
+    justify-content: start;
+}
