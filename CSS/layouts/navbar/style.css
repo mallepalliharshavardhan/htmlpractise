@@ -1,0 +1,55 @@
+.nav-op {
+    flex-direction: column;
+    padding: 5px;
+    list-style:none;
+
+}
+.nav-bar{
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.ul{
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+     display:flex;
+    flex-direction: row;
+    
+}
+.orange{
+    color: orange;
+}
+#Amazon{
+    color: black;
+    padding: 5px;
+    text-align:left;
+    font-weight: bold;
+    font-size: larger;
+    background-color: orange;
+    border-radius: 5px;
+
+}
+
+#Amazon:hover{ 
+    color: black;
+}
+.search{
+    padding: 5px;
+}
+
+#button:hover{
+    color: black;
+}
+
+.button{
+    background-color: orange;
+}
